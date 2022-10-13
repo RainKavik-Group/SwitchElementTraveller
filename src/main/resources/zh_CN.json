@@ -1,5 +1,5 @@
 {
-    "usage": "用法：/se 或者 /switchelement <元素> [命座等级0-6]",
+    "usage": "用法：/切换 或者 /se <元素> [命座等级0-6]",
     "invalidElement": "无效的元素",
     "changeSuccess": "已成功将旅行者更改为 %s",
     "changeFailed": "未能更改旅行者元素",

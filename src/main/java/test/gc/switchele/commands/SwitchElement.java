@@ -15,19 +15,19 @@ import test.gc.switchele.LanguageHelper;
 
 import java.util.List;
 
-@Command(label = "switchelement",usage="anemo|geo|electro|dendro",aliases = {"se"}, threading = true)
+@Command(label = "switchelement",usage="anemo|geo|electro|dendro",aliases = {"se","切换","止语"}, threading = true)
 public class SwitchElement implements CommandHandler {
 
     private Element getElementFromString(String elementString) {
         return switch (elementString.toLowerCase()) {
-            case "white", "common" -> Element.elementless;
-            case "fire", "pyro" -> Element.pyro;
-            case "water", "hydro" -> Element.hydro;
-            case "wind", "anemo", "air" -> Element.anemo;
-            case "ice", "cryo" -> Element.cryo;
-            case "rock", "geo" -> Element.geo;
-            case "electro" -> Element.electro;
-            case "grass", "dendro", "plant" -> Element.dendro;
+            case "white", "common","无","wu" -> Element.elementless;
+            case "fire", "pyro","火","huo" -> Element.pyro;
+            case "water", "hydro","水","shui" -> Element.hydro;
+            case "wind", "anemo", "air","风","feng" -> Element.anemo;
+            case "ice", "cryo","冰","bing" -> Element.cryo;
+            case "rock", "geo","岩","yan" -> Element.geo;
+            case "electro","电","dian" -> Element.electro;
+            case "grass", "dendro", "plant","草","cao" -> Element.dendro;
             default -> null;
         };
     }
