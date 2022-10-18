@@ -3,17 +3,13 @@
 
 * [原项目地址](https://github.com/Penelopeep/SwitchElementTraveller)
 
-* 本项目只是添加了汉化后的中文指令和拼音指令。
+* 本项目只是添加了汉化后的中文指令和拼音指令，并未对原作者的任何指令进行改动，作者所有原始指令都保留，所以你可以正常使用以前的指令。
 
 ## 编译方法
 
 * 下载`https://github.com/RainKavik-Group/SwitchElementTraveller.git`
 * 编译`mvn clean compile`
 * 打包`mvn clean package`
-
-## 使用说明
-
-* 我并未对原作者的任何指令进行改动，作者所有得到指令都保留，所以你可以正常使用以前的指令。
 
 
 ## 指令大全（不包含原版指令）
